@@ -1,4 +1,15 @@
-.resize {
-    max-width: 400px;
+.news-article {
+    max-width: 300px;
     height: auto;
+}
+
+.top-img {
+    width: 50%;
+    margin: auto;
+    max-height: 400px;
+}
+
+.top-img img {
+    width: 100%;
+    overflow: hidden;
 }
