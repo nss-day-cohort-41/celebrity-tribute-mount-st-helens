@@ -1,73 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deadmau5 4Ev3r</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>News</title>
+
+<!-- Bootstrap Stuff -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<!-- Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
+
+<!-- Navigation Bar -->
     <header>
-        <h1>Deadmau5 4Ev3r!</h1>
-        <nav>
-            <!-- Verify all page addresses -->
-            <div><a href="index.html">Home</a></div>
-            <div><a href="career.html">Career</a></div>
-            <div><a href="personal.html">Personal</a></div>
-            <div><a href="news.html">News</a></div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><i class="fa fa-plug" style="font-size:24px"></i> Deadmau5 4Ev3r!</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">Home</a>
+                <a class="nav-item nav-link" href="career.html">Career</a>
+                <a class="nav-item nav-link" href="personal.html">Personal</a>
+                <a class="nav-item nav-link active" href="news.html">News</a>
+            </div>
+            </div>
         </nav>
     </header>
-    <main>
-        <h2>Deadmau5 News</h2>
 
-        <!-- IDs in place in case we have time to link short articles on the Index page -->
-        <article id="neptunes">
-            <h3>Deadmau5 collaborates with The Neptunes on "Pomegranate"</h3>
-            <img src="images/pomegranate.png" alt="Pomegranate cover art">
-            <p>Thursday, May 20, 2020</p>
-            <p>Location: Worldwide</p>
-            <p>Type of event: Track release</p>
-            <p>Collaborators: <a href="https://www.theneptunes.org">The Neptunes</a></p>
-        </article>
+<!-- Content -->
+    <article class="card">
+        <div class="card-header">
+            <h4>Deadmau5 collaborates with The Neptunes on "Pomegranate"</h4>
+        </div>
+        <div class="card-body">
+            <p class="card-text">
+                <img src="images/pomegranate.png" alt="Pomegranate cover art" class="resize">
+                <br>Location: Worldwide
+                <br>Type of event: Track release
+                <br>Collaborators: <a href="https://www.theneptunes.org">The Neptunes</a>
+            </p>
+            <p class="card-text"><small class="text-muted">Thursday, May 20, 2020</small></p>
+        </div>
+    </article>
 
-        <article id="ireland">
-            <h3>Cork County, Ireland -- POSTPONED</h3>
-            <img src="images/marquee.jpg" alt="The Marquee in Cork County, Ireland">
-            <p>Date: Postponed due to COVID-19</p>
-            <p>Location: The Marquee, Cork Country, Ireland</p>
-            <p>Type of event: Concert</p>
-            <p>Tickets: <a
-                    href="https://www.ticketmaster.ie/one-day-presents-deadmau5-cork-18-06-2021/event/1800584ACD32A046">Ticketmaster</a></p>
-        </article>
+    <article class="card">
+        <div class="card-header">
+            <h4>Cork County, Ireland Concert POSTPONED</h4>
+        </div>
+        <div class="card-body">
+            <p class="card-text">
+                <img src="images/marquee.jpg" alt="The Marquee in Cork County, Ireland" class="resize">
+                <br>Date: Postponed due to COVID-19
+                <br>Location: The Marquee, Cork Country, Ireland
+                <br>Type of event: Concert
+                <br>Tickets: <a href="https://www.ticketmaster.ie/one-day-presents-deadmau5-cork-18-06-2021/event/1800584ACD32A046">Ticketmaster</a>
+            </p>
+            <p class="card-text"><small class="text-muted">Thursday, May 20, 2020</small>
+        </div>
+    </article>
 
-        <article id="groceries">
-            <h3>Grocery Shopping</h3>
-            <img src="images/groceries.jpg" alt="Grocery aisle with shopping cart">
-            <p>Date: Sunday, May 31, 2020</p>
-            <p>Location: Piggly Wiggly, Campbellville, Ontario, Canada</p>
-            <p>Type of event: Personal errand</p>
-            <p>Collaborators: Drake</p>
-            <p>Tickets: Private event</p>
-        </article>
+    <article class="card">
+        <div class="card-header">
+            <h4>Deadmau5 to go Grocery Shopping</h4>
+        </div>
+        <div class="card-body">
+            <p class="card-text">
+                <img src="images/groceries.jpg" alt="Grocery aisle with shopping cart">
+                <br>Date: Sunday, May 31, 2020
+                <br>Location: Piggly Wiggly, Campbellville, Ontario, Canada
+                <br>Type of event: Personal errand
+                <br>Collaborators: Drake
+                <br>Tickets: Private event
+            </p>
+            <p class="card-text"><small class="text-muted">Thursday, May 20, 2020</small></p>
+        </div>
+    </article>
 
-        <article id="ilesoniq">
-            <h3>ILESONIQ, Montreal, Canada -- POSTPONED</h3>
-            <img src="images/ilesoniq.jpg" alt="Crowd and stage at ILESONIQ">
-            <p>Date: Postponed due to COVID-19</p>
-            <p>Location: Parc Jean-Drapeau, Montreal, Quebec, Canada</p>
-            <p>Type of event: Music festival</p>
-            <p>Tickets: <a href="https://www.ilesoniq.com/en/passes">ILESONIQ Passes</a></p>
-        </article>
+    <article class="card">
+        <div class="card-header">
+            <h4>Ilesoniq, Montreal, Canada Concert -- POSTPONED</h4>
+        </div>
+        <div class="card-body">
+            <p class="card-text">
+                <img src="images/ilesoniq.jpg" alt="Crowd and stage at ILESONIQ">
+                <br>Date: Postponed due to COVID-19
+                <br>Location: Parc Jean-Drapeau, Montreal, Quebec, Canada
+                <br>Type of event: Music festival
+                <br>Tickets: <a href="https://www.ilesoniq.com/en/passes">ILESONIQ Passes</a>
+            </p>
+            <p class="card-text"><small class="text-muted">Thursday, May 20, 2020</small></p>
+        </div>
+        
+        <footer class="card-footer text-muted">
+            <span class="social-media">
+                <a href="https://www.instagram.com/deadmau5/"><i class="fa fa-instagram" style="font-size:24px"></i></a>
+                <a href="https://twitter.com/deadmau5/"><i class="fa fa-twitter" style="font-size:24px"></i></a>
+            </span>
+            <span>&copy; 2020 Mount St. Helens</span>
+        </footer>
+    </article>
 
-        <h3>Stay tuned for further news!</h3>
-
-    </main>
-    <footer>
-        <p>Copyright &copy; 2020 Mount St. Helens</p>
-        <!-- Social media icons and links to be added -->
-    </footer>
+<!-- Bootstrap Stuff -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
-
 </html>

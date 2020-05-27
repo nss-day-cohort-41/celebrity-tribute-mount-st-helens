@@ -3,60 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Deadmau5 4Ev3r!</title>
+
+<!-- Bootstrap Stuff -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<!-- Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
+
 <body>
+
+<!-- Navigation Bar -->
     <header>
-        <h1>Deadmau5 4Ev3r!</h1>
-        <nav>
-            <!-- Verify all page addresses -->
-            <div><a href="index.html">Home</a></div> 
-            <div><a href="career.html">Career</a></div> 
-            <div><a href="personal.html">Personal</a></div>
-            <div><a href="news.html">News</a></div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><i class="fa fa-plug" style="font-size:24px"></i> Deadmau5 4Ev3r!</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home</a>
+                <a class="nav-item nav-link" href="career.html">Career</a>
+                <a class="nav-item nav-link" href="personal.html">Personal</a>
+                <a class="nav-item nav-link" href="news.html">News</a>
+            </div>
+            </div>
         </nav>
     </header>
-    <!-- Chris: feel free to add classes as needed -->
-    <main>
-        <section>
-            <img src="images/deadmau5_raised_arm.jpg" alt="Deadmau5 with Raised Arm">
-        </section>
-        <section>
-            <h2>Collaborators</h2>
-            <ul>
-                <li>Billy Newton-Davis</li>
-                <li>BSOD</li>
-                <li>Chris James</li>
-                <li>Chris Lake</li>
-                <li>Cypress Hill</li>
-                <li>Imogen Heap</li>
-                <li>Lights</li>
-                <li>MC Flipside</li>
-                <li>Rob Swire</li>
-                <li>Skylar Grey</li>
-                <li>SOFI</li>
-                <li>Wolfgang Gartner</li>
+
+<!-- Content -->
+    <section class="card">
+        <div class="card-header">
+            <h4>Collaborations</h4>
+        </div>
+        <div class="card-body" style="width: 18rem;">
+            <img src="images/deadmau5_raised_arm.jpg" class="card-img-top" alt="Deadmau5 with Raised Arm">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Billy Newton-Davis</li>
+                <li class="list-group-item">BSOD</li>
+                <li class="list-group-item">Chris James</li>
+                <li class="list-group-item">Chris Lake</li>
+                <li class="list-group-item">Cypress Hill</li>
+                <li class="list-group-item">Imogen Heap</li>
+                <li class="list-group-item">Lights</li>
+                <li class="list-group-item">MC Flipside</li>
+                <li class="list-group-item">Skylar Grey</li>
+                <li class="list-group-item">SOFI</li>
+                <li class="list-group-item">Wolfgang Gartner</li>
+                <li class="list-group-item">...and more!</li>
             </ul>
-            <p>...and more!</p>
-        </section>
-        <section>
-            <h2>Known Aliases</h2>
-            <ul>
-                <li>Halcyon441</li>
-                <li>Karma K</li>
-                <li>Testpilot</li>
+        </div>
+    </section>
+
+    <section class="card">
+        <div class="card-header">
+            <h4>Known Aliases</h4>
+        </div>
+        <div class="card-body" style="width: 18rem;">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Halcyon441</li>
+                <li class="list-group-item">Karma K</li>
+                <li class="list-group-item">Testpilot</li>
             </ul>
-        </section>
-        <section>
-            <h2>Country of Residence</h2>
-            <img src="images/CanadaFlag.png" alt="Canada flag">
-            <p>Canada</p>
-        </section>
-    </main>
-    <footer>
-        <p>Copyright &copy; 2020 Mount St. Helens</p>
-        <!-- Social media icons and links to be added -->
-    </footer>
+        </div>
+    </section>
+
+    <section class="card">
+        <div class="card-header">
+            <h4>Country of Residence</h4>
+        </div>
+        <div class="card-body">
+            <p class="card-text">
+                <img src="images/CanadaFlag.png" alt="Canada flag">
+                <br>Canada
+            </p>
+        </div>
+
+        <footer class="card-footer text-muted">
+            <span class="social-media">
+                <a href="https://www.instagram.com/deadmau5/"><i class="fa fa-instagram" style="font-size:24px"></i></a>
+                <a href="https://twitter.com/deadmau5/"><i class="fa fa-twitter" style="font-size:24px"></i></a>
+            </span>
+            <span>&copy; 2020 Mount St. Helens</span>
+        </footer>
+    </section>
+
+<!-- Bootstrap Stuff -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
