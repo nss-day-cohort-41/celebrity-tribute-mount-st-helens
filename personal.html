@@ -3,72 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deadmau5 4Ev3r</title>
+    <title>Personal</title>
+
+<!-- Bootstrap Stuff -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<!-- Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="icon" href="https://imgur.com/ZNNgBMr"> 
 </head>
 
-        <!-- Header Element of Deadmau5 4Ev3r Component -->
-<header>
-    <h1>Deadmau5 4Ev3r!</h1>
-         <!-- Nav Bar Components -->
-        <nav>
-            <div><a href="index.html">Home</a></div> 
-            <div><a href="career.html">Career</a></div> 
-            <div><a href="personal.html">Personal</a></div>
-            <div><a href="news.html">News</a></div>
-         </nav>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Deadmau5_d.jpg" width="700" height="500" alt="Deadmau5">
-</header> 
-
 <body>
-         <!-- Content Element of Deadmau5's Birth Name Component -->
-    <div>
-        <ul><h3>Birth Name</h3>
-            <li>Joel Thomas Zimmerman</li>
-        </ul>
-    </div>
-        <!-- Content Element of Deadmau5 Birthday Component -->    
-    <div>
-        <ul><h3>Birthday</h3>
-            <li> January 5, 1981 </li>
-        </ul>
-    </div>
-        <!-- Content Element of Deadmau5's Home Location Component -->
-    <div>
-        <ul><h3>Country of Current Residence</h3> 
-            <li>Campbellville, Canada (CA)</li>
-        </ul>
-    </div>
-        
-        <!-- Deadmau5's Big Happy and TOTALLY ACCURATE Family Component -->  
-    <div>
-        <ul><h3>Immediate Family Members</h3> 
-           
-            <li>Kelly Fedoni (Wife of Deadmau5) </li>
-               <img src="https://pbs.twimg.com/profile_images/583852293340139520/1VffAvHR.jpg" alt="Kelly Fedoni" style="width:170px;height:150px;">
-           
-            <li>Taylor Swift (Daughter of Deadmau5)</li>
-               <img src="https://medias.spotern.com/spots/w640/238/238522-1570699012.jpg" alt="Taylor Swift" style="width:150px;height:150px;">
-            
-           <li>Mickey Mau5 (Father of Deadmau5)</li>
-                <img src="https://hdsmileys.com/wp-content/uploads/2017/10/mickey-mouse-with-cool-glasselsll.png" alt="Mickey Mouse" style="width:150px;height:150px;">
 
-           <li>Minnie Mau5 (Mother of Deadmau5)</li>
-                <img src="https://stickershop.line-scdn.net/stickershop/v1/product/2673/LINEStorePC/main.png;compress=true" alt="Minnie Mouse" style="width:150px;height:150px;">
-           
-           <li>Stuart Little (Brother of Deadmau5)</li>
-                <img src="https://pbs.twimg.com/profile_images/1039582153707847680/1ilF0oml_400x400.jpg" alt="Stuart Little" style="width:150px;height:150px;;">
-           
-           <li>Mighty Mau5 (Cousin of Deadmau5)</li>
-                <img src="https://www.wired.com/images_blogs/underwire/2010/01/pl_playlist_f.jpg" alt="Mighty Mouse" style="width:150px;height:150px;">
-           
-        </ul>
-    </div>
+<!-- Navigation Bar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><i class="fa fa-plug" style="font-size:24px"></i> Deadmau5 4Ev3r!</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">Home</a>
+                <a class="nav-item nav-link" href="career.html">Career</a>
+                <a class="nav-item nav-link active" href="#">Personal</a>
+                <a class="nav-item nav-link" href="news.html">News</a>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+<!-- Main Content -->
+    <section class="card">
+        <div class="card-header">
+            <h4>Personal Information</h4>
+        </div>
+        <div class="card-body" style="width: 18rem;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Deadmau5_d.jpg" class="card-img-top" alt="Deadmau5">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Birth Name: Joel Thomas Zimmerman</li>
+                <li class="list-group-item">Birthday: January 5, 1981</li>
+                <li class="list-group-item">Country of Current Residence: Canada</li>
+                <li class="list-group-item">Country of Origin: Canada</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="card">
+        <div class="card-header">
+            <h4>Family Members</h4>  
+        </div>
+        <div class="card-group" style="width: 72rem">
+            <div class="card-body" style="width: 18rem;">
+                <img src="https://pbs.twimg.com/profile_images/583852293340139520/1VffAvHR.jpg" class="card-img-top" alt="Kelly Fedoni">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Kelly Fedoni</li>
+                    <li class="list-group-item">Wife</li>
+                    <li class="list-group-item">Married: 2017</li>
+                </ul>
+            </div>
+            <div class="card-body" style="width: 18rem;">
+                <img src="https://medias.spotern.com/spots/w640/238/238522-1570699012.jpg" class="card-img-top" alt="Taylor Swift">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Taylor Swift</li>
+                    <li class="list-group-item">Daughter</li>
+                    <li class="list-group-item">Birthday: December 13, 1989</li>
+                </ul>
+            </div>
+            <div class="card-body" style="width: 18rem;">
+                <img src="https://hdsmileys.com/wp-content/uploads/2017/10/mickey-mouse-with-cool-glasselsll.png" class="card-img-top" alt="Mickey Mau5">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Mickey Mau5</li>
+                    <li class="list-group-item">Father</li>
+                </ul>
+            </div>
+            <div class="card-body" style="width: 18rem;">
+                <img src="https://stickershop.line-scdn.net/stickershop/v1/product/2673/LINEStorePC/main.png" class="card-img-top" alt="Minnie Mau5">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Minnie Mau5</li>
+                    <li class="list-group-item">Mother</li>
+                </ul>
+            </div>
+        </div>
+
+        <footer class="card-footer text-muted">
+            <span class="social-media">
+                <a href="https://www.instagram.com/deadmau5/"><i class="fa fa-instagram" style="font-size:24px"></i></a>
+                <a href="https://twitter.com/deadmau5/"><i class="fa fa-twitter" style="font-size:24px"></i></a>
+            </span>
+            <span>&copy; 2020 Mount St. Helens</span>
+        </footer>
+    </section>
+
+<!-- Bootstrap Stuff -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
-          
-        <!-- Footer Content Component -->
-<footer>
-    <p>Copyright &copy; 2020 Mount St. Helens</p>
-        <!-- Social media icons and links to be added -->
-</footer>
+</html>
