@@ -13,3 +13,8 @@
     width: 100%;
     overflow: hidden;
 }
+
+.disco li {
+    text-align: center;
+    font-weight: bold;
+}
