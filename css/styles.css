@@ -13,3 +13,9 @@
     width: 100%;
     overflow: hidden;
 }
+
+.disco p {
+    text-align: center;
+    font-weight: bold;
+    margin: .4em 0 0;
+}
