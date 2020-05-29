@@ -20,8 +20,6 @@ Team Mt St Helens of NSS Cohort 41 created a tribute website on the celebrity De
 
 To view the page, clone the repository and then serve the directory to make it accessible via web browser.
 
-![Index screenshot](/images/index_screenshot.png)
-
 <hr>
 
 # Nashville Software School Tribute Agency
