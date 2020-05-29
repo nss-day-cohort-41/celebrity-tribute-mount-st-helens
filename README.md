@@ -20,10 +20,7 @@ Team Mt St Helens of NSS Cohort 41 created a tribute website on the celebrity De
 
 To view the page, clone the repository and then serve the directory to make it accessible via web browser.
 
-<img src="https://github.com/nss-day-cohort-41/celebrity-tribute-mount-st-helens/tree/dl-readme/images/index_screenshot.png" alt="Index screenshot" width="400" height="225">
-<img src="https://github.com/nss-day-cohort-41/celebrity-tribute-mount-st-helens/tree/dl-readme/images/career_screenshot.png" alt="Index screenshot" width="400" height="225">
-<img src="https://github.com/nss-day-cohort-41/celebrity-tribute-mount-st-helens/tree/dl-readme/images/personal_screenshot.png" alt="Index screenshot" width="400" height="225">
-<img src="https://github.com/nss-day-cohort-41/celebrity-tribute-mount-st-helens/tree/dl-readme/images/news_screenshot.png" alt="Index screenshot" width="400" height="225">
+![Index screenshot](/images/index_screenshot.png)
 
 <hr>
 
