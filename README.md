@@ -1,3 +1,27 @@
+# Deadmau5 Tribute
+
+## by Team Mount St. Helens of Nashville Software School Cohort 41
+
+Mount St. Helens includes the following individuals:
+
+### Christopher McColgan
+Design, CSS/Bootstrap
+
+### David Larsen
+Index and News pages
+
+### Lacey Walker
+Personal page
+
+### Erik Lindstrom
+Career page
+
+Team Mt St Helens of NSS Cohort 41 created a tribute website on the celebrity Deadmau5 together following the criteria below. Subjects learned include use of GitHub, HTML and CSS concepts, and coding as a group.
+
+To view the page, clone the repository and then serve the directory to make it accessible via web browser.
+
+<hr>
+
 # Nashville Software School Tribute Agency
 
 Welcome fans.
